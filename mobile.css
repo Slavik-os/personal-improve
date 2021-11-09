@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1000px) {
+	nav {
+		display:flex ;
+		flex-direction: column;
+		width: 100%;
+		align-items: flex-start;
+	}
+	nav .logo h1 {
+		display: none;
+	}
+	.container-middle p {
+		font-size : 30px;
+	}	
+	.search {	
+		margin-top : 20px;
+	}
+	.login {
+		margin: 20px;
+	}
+	.content span h1 {
+		font-size : 20px;
+	}
+	input[type=text]{
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+		height: 150vh !important;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		overflow: hidden;
+	}
+	.line-hero{
+		width: 50%;
+	}
+	.right-container-content  p{
+		font-size : 18px;
+		padding : 20px;
+	}
+
+	footer  {
+		height: 100vh;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding-top : 20px;
+	}
+	footer ul {
+		padding-top : 20px;
+	}
+	
+}

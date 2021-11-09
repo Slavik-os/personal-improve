@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="mobile.css">
+	<link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+		<div class="container">
+			<nav>
+				<div id="dropMenu">
+					<a href="#" onclick="closeNav()"><i class="fa fa-times"></i></a>
+					<a href="#">About us</a>
+					<a href="#"> contact us</a>
+					<a href="#">Pricings</a>
+					<a href="#">Services</a>
+
+				</div>
+				<span onclick="openNav()" class="menu-burger">
+					<div></div>
+					<div></div>
+					<div></div>
+				</span>
+				<span class="logo"><h1>Witchers Store</h1></span>
+				<div class="search">
+					<span class="search-bar">
+						  <i class="fa fa-search"></i>
+						  <input class="input-search-feild" placeholder="search for item" type="search">
+					</span>
+				</div>
+				<span class="login">
+					<a href="#">Login</a> / <a id="openModal" href="#">SignIn</a>
+				</span>
+			</nav>	
+			<div class="container-middle" id="hidecontainer">
+				<p>You’re never fully deressed <br> whitout jewlery.</p>
+				<button> Shop now </button>
+			</div>
+			
+			  <div id="showModal" class="image-container">
+            <div class="modal">
+                <div class="slider fade">
+                    <img src="assets/image1.jpg" alt="">
+                </div>
+                <div class="slider fade">
+                    <img src="assets/image2.jpg" alt="">
+                </div>
+                <div class="slider fade">
+                    <img src="assets/image3.jpg" alt="">
+                </div>
+                <div class="slider fade">
+                    <img src="assets/image4.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="close" href="#" onclick="closeModal()" ><i class="fa fa-times"></i></a>
+                <div class="content">
+                    <span><h1>Sign up today</h1></span>
+                    <form action="#">
+                        <input type="text" placeholder="first name">
+                        <input type="text" placeholder="last name">
+                        <input type="text" placeholder="email address">
+                        <input type="text" placeholder="Comfirm email">
+                        <input type="text" placeholder="Create password">
+                        <input type="submit" value="Sign up">
+                    </form>
+                </div>
+             </div>
+        </div>
+		<div class="container-image"></div>
+		<div class="image-contaier-layout" id="image-opacity"></div>
+	</div>
+</header>
+	<div class="container	">
+		<div class="left-container">
+			<div class="img-card">
+				<img src="assets/pexels-goran-vrakela-230290.jpg" alt="">
+				<div class="shadow"></div>
+			</div>
+		</div>
+		<div class="right-container">
+			<div class="right-container-content">
+				<span><h1>Winter Collection</h1></span>
+				<span> <h2> "i have enough jewlery" <br> - said no one ever .</h2></span>
+				<button>order now</button>
+				<div class="line-hero"></div>
+					<span class="colection-title"><h1>Collenction Title</h1></span>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+					industry. Lorem Ipsum has been the industry's standard dummy text ever 
+					since the 1500s, when an unknown printer took a galley of type and 
+					scrambled it to make a type specimen book. It has survived not only 
+					five centuries, but also the leap into electronic typesetting, 
+					remaining essentially unchanged. It was popularised in the 1960s 
+					with the release of Letraset sheets containing Lorem Ipsum passages, 
+					and more recently with desktop publishing software like Aldus PageMaker 
+					including versions of Lorem Ipsum.</p>
+		</div>
+
+		</div>
+	</div>
+	
+	<footer>
+		<ul>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">High lights</a></li>
+			<li><a href="#">Order a colection</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="#">return policy</a></li>
+			<li><a href="#">test our products</a></li>
+			<li><a href="#">High lights</a></li>
+			<li><a href="#">Order a colection</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="#">Pre order</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">High lights</a></li>
+			<li><a href="#">Order a colection</a></li>
+		</ul>
+
+		
+		<ul>
+			<li><a href="#">seomthing new</a></li>
+			<li><a href="#"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i>  <i class="fab fa-instagram"></i> <i class="fab fa-linkedin"></i></a></li>
+			<li><a href="#">High lights</a></li>
+			<li><a href="#">Order a colection</a></li>
+		</ul>
+	</footer>
+	<script src="main.js"></script>
+</body>
+</html>
